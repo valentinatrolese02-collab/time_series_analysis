@@ -32,3 +32,6 @@ Dtest  = D[D["time"] >= teststart].copy()
 
 print("Train shape:", Dtrain.shape)
 print("Test shape:", Dtest.shape)
+Dtrain.to_csv("train.csv", index=False)
+Dtest.to_csv("test.csv", index=False)
+
