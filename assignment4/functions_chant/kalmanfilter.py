@@ -2,7 +2,7 @@ import numpy as np
 
 def myKalmanFilter(y, theta, R, x_prior=0.0, P_prior=10.0):
     """
-    Scalar Kalman filter for:
+    SCALAR Kalman filter for:
         X_{t+1} = a - b*X_t + c*e_t
         y_t = X_t + noise
     """
@@ -46,10 +46,10 @@ def myKalmanFilter(y, theta, R, x_prior=0.0, P_prior=10.0):
         P_filt[t] = (1 - K_t) * P_pred[t]
 
     return {
-        "x_pred": x_pred,
-        "P_pred": P_pred,
-        "x_filt": x_filt,
-        "P_filt": P_filt,
+        "x_pred": x_pred,   # Predicted state mean
+        "P_pred": P_pred,   # Predicted state variance
+        "x_filt": x_filt,   # filtered state mean
+        "P_filt": P_filt,   # filtered state variance
         "innovation": innovation,
         "innovation_var": innovation_var
     }
