@@ -1,6 +1,6 @@
 metric,value
-mean standardized residual,-0.01353838951901364
+mean standardized residual,-0.013538389519013766
 std standardized residual,1.001013487289899
 max absolute standardized residual,4.621130952561909
-"Ljung-Box p-value, lag 10",0.16707924338700508
-"Ljung-Box p-value, lag 24",0.2486382983308708
+"Ljung-Box p-value, lag 10",0.16707924338700647
+"Ljung-Box p-value, lag 24",0.24863829833087567
