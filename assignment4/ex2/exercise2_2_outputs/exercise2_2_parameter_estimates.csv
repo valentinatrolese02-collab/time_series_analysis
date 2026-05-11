@@ -1,0 +1,8 @@
+parameter,estimate,interpretation
+A,0.8009487104354944,Thermal memory of the latent temperature state
+B_Ta,0.10208057240521252,Effect of outdoor air temperature
+B_S,2.874894119311141,Effect of solar radiation per 1000 W/m^2
+B_I,0.2134196915384718,Effect of transformer load
+sigma_x,0.644387788583672,System noise standard deviation
+sigma_y,0.00010000000000000009,Observation noise standard deviation
+X0,24.19687999660902,Initial state
